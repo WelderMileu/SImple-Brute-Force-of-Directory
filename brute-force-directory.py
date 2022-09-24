@@ -9,7 +9,7 @@ try:
 except Exception as err:
     print(err)
 
-# python3 ./progress.py <url> <wordlist>
+# python3 ./brute-force-directory.py <url> <wordlist>
 
 class Simple:
     def __init__(self, url, wordlist_file):
